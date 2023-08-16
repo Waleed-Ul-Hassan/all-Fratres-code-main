@@ -1,0 +1,1017 @@
+/********************************************
+Responsive
+*********************************************/
+@media(max-width:1199px){
+  
+    .jobblog_detail_page_v2_list_head li.nav-item{
+        width: 100%;
+    }
+
+    .blogv2-latestproject-list ul li:nth-child(2){
+        width: 120px;
+    }
+    .blog-jobcatev1{
+        flex-basis: unset;
+    }
+    .blog-jobcatv2{
+        flex-basis: unset;
+    }
+    ul#desktopviewblogmenu {
+        display: none;
+    }
+    div#mbliewblogmenu{
+        display: unset;
+    }
+    .blog-content-v1{
+        flex-basis: unset;
+    }
+    .blog-content-v2{
+        flex-basis: unset;
+        margin-left: 0;
+    }
+    .blog-jobcategoryhead{
+        flex-direction: column;
+    }
+
+    .blog-main-porfolio-head{
+        flex-direction: column;
+    
+    }
+    .jobblog-item1-bg-profile img{
+        width: 100%;
+        height: auto;
+    }
+    .jobblog-item2-wrapper-profile img{
+        width: 100%;
+    }
+    .blog-portfolio-item1{
+        margin-right: 0;
+        flex-basis: unset;
+        margin-bottom: 20px;
+    }
+    .blog-portfolio-item2{
+        flex-basis: unset;
+    }
+    .jobblog-latest-head{
+        flex-direction: column;
+    }
+    .owl-stage-outer.owl-height{
+        width: unset;
+    }
+    .blog-test-bottom-content-head{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:991px){
+    .work_exp_subhead h3{
+        font-size: 18px;
+    }
+    .fratres_resume_jobee_mainhead{
+        flex-direction: column;
+    }
+
+    .skills_counterfratres ul{
+        text-align: center;
+    }
+    .fratres_editbasicinfo h3 a{
+        font-size: 15px !important;
+    }
+    .jobee_item3{
+        flex-basis: unset !important;
+    }
+    .jobee_item2{
+        flex-basis: unset !important;
+        margin: 0 !important;
+    }
+    .fratres_editbasicinfo h6{
+        text-align: unset !important; 
+    }
+    .fratres_editbasicinfo p{
+        text-align: unset !important; 
+        font-size: 14px !important;
+    }
+   
+    .jobee_profile_details_head{
+        padding: 0 !important;
+    }
+    .jobee_item_profile_logo{
+        padding: 0 !important;
+    }
+    .avatar-upload .avatar-preview{
+        margin: 0 auto;
+    }
+    .jobee_profile_logohandle{
+        position:unset !important;
+        left: unset !important;
+        top: unset !important;
+    }
+    .jobee_item1{
+        flex-basis: unset;
+        height: 100% !important;
+
+
+    }
+      .jobee_main_head{
+        flex-direction: column;
+    }
+
+    .cv_maker_heading_lst ul li:first-child {
+        text-align: left;
+    }
+   .cv_maker_heading_lst nav.navbar.navbar-expand-lg.navbar-light{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cv_maker_heading_lst li.nav-item.dropdown{
+        border-radius: 0;
+        text-align: left;
+    }
+    .network_star_head{
+        flex-direction: column;
+    }
+    .network_star_item1{
+        flex-basis: unset;
+    }
+    .network_star_item2{
+        flex-basis: unset;
+        text-align: left !important;
+    }
+    .network_start_item1_head{
+        flex-direction: column;
+    }
+    .star_profile{
+        flex-basis: unset;
+    }
+    .star-main{
+        flex-basis: unset;
+    }
+    .star-client{
+        flex-basis: unset;
+    }
+    .our_entire_main ul{
+        margin-bottom: 20px;
+    }
+    .network_pills_main{
+        position: unset;
+    }
+    .network_sector_wrapper {
+        position: unset;
+        margin: 20px 0;
+       
+    }
+    .network_content3_mainhead{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .network_content_1_head{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .network_content2_mainhead{
+        justify-content: unset;
+    }
+    .network1_item{
+        width: unset !important;
+    }
+    .network_clients_head{
+        position: unset;
+    }
+    .jobseeker_new_head_login{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .homepage-moreoptions p span i{
+        left: unset;
+    }
+    .jobblog-detail_page-v1-ftr-head_botm ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    }
+    .jobblog_v1_form_second_3 ul li.joblog_detail_page_apply {
+    padding: 5px;
+    }
+    .jobblog_v1_form_second_3 ul li.joblog_detail_page_view {
+        padding: 5px;
+        }
+    .jobblogdetail-latest-head{
+        flex-direction: column;
+    }
+    .jobblogdetail-v1_form_top{
+        flex-direction: column;
+    }
+    .jobblogdetail-v1_form_second{
+        flex-direction: column;
+    }
+    .jobblog_v1_form_second_1{
+        flex-basis: unset;
+        padding: 10px;
+    }
+    .jobblog_v1_form_second_1 img{
+      width: 100%;
+    }
+    .jobblog_v1_form_second_2{
+        flex-basis: unset;
+        padding: 10px;
+    }
+    .jobblog_v1_form_second_3{
+        flex-basis: unset;
+        padding: 10px;
+    }
+    .homepageslider-valuepanel h1{
+        text-align: center;
+    }
+    .homepageslider-valuepanel h3{
+        text-align: center;
+    }
+    .homepagecv-btn {
+        text-align: center;
+        margin: 10px;
+    }
+    .homepageslider-cvleft{
+        position: unset;
+        left: unset;
+        top: unset;
+        display: flex;
+        justify-content: center;
+        max-width: unset;
+        position: relative;
+    }
+    .homepageslider-cvleft span img {
+        position: absolute;
+        height: 90px;
+        left: 40%;
+        bottom: 95px;
+    }
+    .homepageslider-cvleft h2{
+        left: 40%;
+    }
+    .homepageslider-cvleft h5.valuecvname{
+        left: 36%;
+    }
+    .search-countires-pak-head .item-pak a img {
+        width: 18px;
+        height: 16px;
+    }
+    
+    .search-countires-pak-head  .item-pak a {
+        font-size: 13px;
+        color: #666;
+        border-bottom:1px solid #ff8a0045;
+    }
+    
+    .search-countires-pak-head .item-pak {
+        background-color: #f9f9f9;
+    }
+    
+    .search-countires-pak-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .recru-post-jobhead fieldset{
+        width: 100%;
+        margin-left: 0;
+    }
+    .recru-post-jobhead fieldset h5
+    {
+        padding: 10px;
+    }
+    .recru-dash-head{
+        flex-direction: column-reverse;
+    }
+
+
+    .jobseeker-hold-reg {
+        bottom: 15% !important;
+        position: absolute;
+    }
+
+    .jobseeker-enhance-profile-head-v1{
+        flex-direction: column;
+    }
+    .jobseeker-enhance-profile-head-v1item1{
+        flex-basis: unset;
+        margin-bottom: 30px;
+        text-align: center;
+
+    }
+    .jobseeker-enhance-profile-head-v1item2{
+        flex-basis: unset;
+        text-align: center;
+
+    }
+    .jobseeker-enhance-head{
+        flex-direction: column;
+    }
+
+    .jobseeker-enhanceitem1{
+        text-align: center;
+        flex-basis: unset;
+        margin-bottom: 30px;
+    }
+    .jobseeker-enhance-headntm p{
+        text-align: center;
+    }
+    .jobseeker-enhanceitem2{
+      
+        flex-basis: unset;
+    }
+
+
+    .jobseeker-uploadcv-head{
+        padding-left: 0;
+    border-top: 1px solid #dfdfdf;
+    border-left: 0;
+    padding-top: 20px;
+    }
+    .jobseeker-modify-profile{
+        flex-direction: column;
+    }
+    .languages {
+        display: grid;
+    }
+    .jobskerskillstext #skills {
+        width: 100%;
+    }
+    .modifyaccount-personal-head{
+        flex-direction: column;
+    }
+    .modifyaccount-perosnal-item1{
+        flex-basis: unset;
+    }
+    .jobseeker-mainskill-item1{
+        flex-basis: unset;
+    }
+    .jobseeker-mainskill-item2{
+        flex-basis: unset;
+    }
+    
+    .modifyaccount-perosnal-item2{
+        flex-basis: unset;
+    }
+    .modify-perosnal-item1-head-title span{
+        display: none;
+    }
+    .jobseeker-mainskill-head{
+        flex-direction: column;
+    }
+    header.jobdetails a.btn.btn-primary {
+        background-color: #ff8a00;
+        border-color: #ff8a00;
+        padding: 5px 20px;
+        margin: 20px auto 0;
+    }
+    .AppForm .AppFormRight:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-left:0;
+        background-color: #fff;
+       
+        /* background: #000428;  
+    background: -webkit-linear-gradient(to right, #ff8a00, #000428);  
+    background: linear-gradient(to right, #ff8a00, #000428); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        opacity: 1;
+    }
+    .AppForm .AppFormRight{
+        height: 450px;
+    }
+    .ftr-main-head {
+
+        display: flex !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap;
+    }
+    .ftr-item {
+            width: 50% !important;
+            margin: 10px 0;
+        }
+      #desktopview{
+          display: none;
+      }
+      #mblview
+        {
+            display: unset !important;
+            
+        }
+       
+        a#big-sexy {
+            background-color: #fff;
+        }
+        a#big-sexy i{
+            color: #DADADA;
+        }
+        a#big-sexy .btn.focus, .btn:focus{
+            box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+        }
+        .mobile-logo img {
+            margin: 0 50px;
+        }
+        .sitmenulist ul {
+            list-style-type: none;
+        }
+        .sitmenulist ul li{
+            border-bottom: 1px solid #395261;
+        }
+        .sitmenulist ul li div {
+            width: 100%;
+           
+        }
+      
+        a.loginmenu {
+            background-color: #062942;
+            text-align: center;
+            display: inline-block;
+            line-height: 65px;
+            height: 65px;
+            padding: 0;
+            margin: 0;
+            width: 49%;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        a.registermenu{
+            background-color: #0A4770;
+            text-align: center;
+            display: inline-block;
+            line-height: 65px;
+            height: 65px;
+            padding: 0;
+            margin: 0;
+            width: 49%;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        .sitmenulist ul li:first-child{
+            border-top: 1px solid #395261;
+        }
+        .sitmenulist ul li a span i {
+            font-size: 25px;
+            color: #fff;
+            padding: 14px;
+        }
+        
+        
+        .sitmenulist ul li a {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 18px;
+            font-weight: 300;
+        }
+        .sitmenulist ul li:last-child{
+            padding: 14px;
+        }
+        .jobsadmobile {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            border-bottom: 1px dotted #dadada;
+        }
+        .jobsaditemdetails {
+            flex-grow: 1;
+        }
+        
+        .jobsaditemlogo img {
+            width: 50px;
+            
+        }
+        .jobsaditemlogo{
+            padding-right: 15px;
+        }
+       
+        
+        .jobadsmblheart i {
+            font-size: 30px;
+            color: #e6e8e8;
+        }
+        
+        .jobsaditemdetails a {
+            font-size: 16px;
+            color: #ff8a00;
+            text-transform: capitalize;
+        }
+        .jobsaditemdetails span.badge.badge-secondary {
+            color: #333;
+            top: 0;
+            font-weight: 400;
+            background-color: #f0f0f0;
+            text-transform: capitalize;
+        }
+        
+        .jobsaditemdetails h6 {
+            font-size: 12px;
+            padding: 1px 0;
+            color: #333;
+        }
+        .jobsaditemdetails a strong{
+            text-transform: lowercase;
+        }
+        #site-wrapper h1 {
+            position: absolute;
+            top: 0;
+            font-size: 16px;
+            padding: 6px 10px;
+            color: #333;
+            font-weight: 600;
+        }
+        #site-wrapper h2{
+            color: #54636e;
+            font-size: 12px;
+            padding: 0 14px;
+            position: absolute;
+            top: 32px;
+
+        }
+        .job-email-head {
+            padding: 10px;
+            background-color: #e6e8e8;
+        }
+        
+        .job-email-head input {
+            width: 100%;
+           margin-bottom: 10px;
+            border: 0;
+            border-radius: 2px;
+            padding: 5px;
+        }
+        
+        .job-email-head p {
+            padding: 10px 0;
+            font-size: 12px;
+        }
+        
+        .job-email-head p a {
+            color: #ff8a00;
+        }
+        
+        .job-email-head button.btn.btn-primary {
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            padding: 8px;
+            border-radius: 8px;
+        }
+        .job-email-head button.btn.btn-primary span i{
+            font-size: 18px;
+            padding-right: 10px;
+        }
+        .job-seemore {
+            padding: 15px;
+        }
+        
+        
+        
+        .job-seemore button.btn.btn-primary {
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            padding: 8px;
+            border-radius: 8px;
+        }
+        
+        .job-seemore .text-center.pt-3 a {
+            color: #ff8a00;
+            font-size: 16px;
+        }
+        a#filters {
+            position: absolute;
+            right: 55px;
+            top: 9px;
+            z-index: 4;
+        }
+        
+        a#filters i {
+            font-size: 24px;
+            color: #e6e8e8;
+        }
+        .jobsadmobile:first-child{
+            border-top: 1px dotted #dadada;
+        }
+
+        section.similar-jobdetail-mobile {
+            display: unset;
+        }
+        .jobdetail-ad-fields{
+            display: none;
+        }
+        .open-nav-jobdetail {
+            display: unset !important;
+        }
+        a.mbl-jobdetail-registerbtn {
+            background-color: #ff8a00;
+            color: #ffff;
+            margin: 0 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+        a.mbl-jobdetail-loginbtn {
+            border: 1px solid #fff;
+            margin: 10px 10px;
+            color: #ffff;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: 18px;
+            border-radius: 5px;}
+            .similar-jobdetail-head-mobile a {
+                display: block;
+                padding: 10px;
+                margin: 0;
+                background-color: #ff8a00 !important;
+                text-align: left;
+                text-transform: capitalize;
+                font-size: 16px;
+            }
+            
+            section.similar-jobdetail-mobile ul {
+                list-style-type: none;
+            }
+            
+            section.similar-jobdetail-mobile ul li h3 {
+                font-size: 16px;
+                color: #ff8a00;
+                padding: 10px 0;
+            }
+            
+            section.similar-jobdetail-mobile ul li p {
+                font-size: 12px;
+                color: #333;
+                padding: 3px 0;
+            }
+            
+            section.similar-jobdetail-mobile ul li {
+                padding-bottom: 10px;
+                border-bottom: 1px solid #e4e6ea;
+            }    
+            .similar-jobdetail-head-mobile span {
+                float: right;
+            }
+            .jobseeker-dashb-content-main{
+                flex-direction: column-reverse;
+            }
+            .jobseeker-dashb-item1{
+                margin-right: 0;
+            }
+            .slick-slider{
+                width: 100%;
+            }
+            .jobseeker-sidebar-botm{
+                justify-content: space-around;
+            }
+            .jobseeker-dashb-item1-main .profile__detail-dropdown textarea{
+                width: 100%;
+                margin: 0;
+            }
+
+  }
+
+
+  @media(max-width:767px){
+    .homepage-jobcate-head li.nav-item{
+        width:100%;
+    }
+    .homepage-client-logo-wrapper #owl-demo button.owl-prev span{
+        display: none;
+    }
+
+    .homepage-client-logo-wrapper #owl-demo button.owl-next span{
+        display: none;
+    }
+    .homepage_moreoptions_v4 {
+        padding-left: 0;
+    }
+    .homepage_moreoptions_v3 {
+      padding-left: 0;
+        margin-bottom: 10px;
+    }
+    .homepage_moreoptions_v2{
+        padding-left: 0;
+    }
+    .homepage_moreoptions_head{
+        flex-direction: column;
+    }
+    .homepageslider-form-head{
+        flex-direction: column;
+    }
+    .homepagesldier-v2top , .homepagesldier-v3top , .homepagesldier-v4top{
+        margin-left: 0;
+    }
+
+    .buy-filed-listhead{
+        flex-direction: column;
+    }
+    .buy-filed-listhead-v1{
+        flex-basis: unset;
+    }
+    .buy-filed-listhead-v2{
+        flex-basis: unset;
+    }
+    .buy-field-package-head{
+        flex-direction: column;
+    }
+    .buy-field-package-item1, .buy-field-package-item2, .buy-field-package-item3{
+        margin: 10px 0;
+    }
+    .form-wizard .form-wizard-steps li{
+        width: 20%;
+    }
+    .wizard-content-left {
+        height: auto;
+      }
+    .drfat-submenu {
+        right: 250px;
+        left: unset;
+    }
+    .drfat-submenu2 {
+        right: 250px;
+        left: unset;
+    }
+    .recru-dash-item2-v1-action-head{
+        flex-direction: column;
+    }
+    .recru-dash-item2-v1-action-head-item1 h3 , .recru-dash-item2-v1-action-head-item2 h2{
+        text-align: center;
+        font-size: 14px;
+    }
+    .recru-dash-headv1{
+        display: none;
+    }
+    div#recr-topdraft{
+        margin: 0;
+    }
+    .recru-draftpostjob{
+        flex-direction: column;
+    }
+    .recr-draftdetails{
+        flex-direction: row;
+    }
+    .recru-postjob-draft1{
+        border-right: 0;
+    }
+    header.jobdetails .custom-select{
+        border-left: 1px solid #ced4da;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        margin-top: 10px;
+    }
+    .create-alert form{
+        margin-left: 0;
+    }
+    .ftr-jobdetail-logo img{
+        margin-left: 10px;
+        margin-top: 0;
+        
+    }
+   
+    .jobdetail-appmain{
+        margin: 10px 0;
+    }
+
+    .jobdetail-list-btmftr {
+     text-align: unset !important;
+        margin: 10px 0;
+    }
+    .jobseeker-dashb-item2-mainheadv1-main{
+        flex-direction: column;
+        
+    }
+    .jobseeker-dashb-item2-mainheadv1-main-logo {
+        padding-bottom: 10px;
+    }
+    
+    .jobseeker-dashb-item2-mainheadv1-main-details {
+        padding-bottom: 10px;
+    }
+  }
+  @media(max-width:575px){
+    .ftr-jobdetail-logo{
+        text-align: left;
+    }
+    .job-detail-btn-links{
+        flex-direction: column;
+    }
+    .form-wizard .form-wizard-steps li p{
+        padding: 10px 0;
+        font-size: x-small;
+        line-height: 1;
+        font-weight: 600;
+        color: #666;
+    }
+    .cv_maker_logo h6{
+        position: unset;
+        left: unset;
+        bottom: unset;
+    }
+
+}
+
+
+  @media(max-width:565px){
+    .job-ad-parent{
+        padding-top: 8%;
+       
+    }
+    .ftr-main-head {
+
+        display: flex !important;
+        justify-content: flex-start !important;
+        flex-wrap: wrap;
+    }
+            .ftr-item {
+            width: 100% !important;
+            margin: 10px 0;
+        }
+  }
+
+
+  @media(max-width:529px){
+    .cv_template_head{
+        justify-content: center;
+    }
+  }
+
+
+@media(max-width:479px){
+    .work_exp_subhead1 h3{
+        font-size: 14px;
+    }
+    .work_exp_subhead h3{
+        font-size: 14px;
+    }
+    .resume_details_fratres h2{
+        font-size: 22px;
+    }
+    .fratres_resume_info_logo{
+        flex-direction: column;
+    }
+    .resume_logo_fratres {
+        margin: 0 auto;
+    }
+    .resume_details_fratres h5{
+        font-size: 15px;
+    }
+    .resume_sumary_fulldetails p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .skill_strength_resume_head h2 , .project_resume_fratres h3{
+        font-size: 22px;
+    }
+    .exp_resume_head h3{
+        font-size: 22px;
+    }
+    .exp_his_item1 h4 ,  .exp_his_item2 h4 ,  .exp_his_item3 h4{
+        font-size: 15px;
+    }
+
+    .cv_template_skin_color{
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        right: unset;
+        top: unset;
+        background-color: #dedede;
+    }
+    .jobseeker_login_new_head li.nav-item{
+        width: 100%;
+        text-align: center;
+    }
+    .project_list_resume ul li h3{
+        font-size: 18px;
+    }
+    .fratres_resume_item2 {
+        margin:  0 20px;
+    }
+    .academics_head_resume  h3 , .work_exp_head_main h3{
+        font-size: 20px;
+    }
+    .sector_btn_network a.btn-primary{
+        width: 100%;
+    }
+    .work_resume_fratres_head{
+        margin: unset;
+    }
+    .work_exp_head_main h3 span i , .academics_head_resume h3 span i , .skill_strength_resume_head h2 span i , .exp_resume_head h3 span i , .project_resume_fratres h3 span i{
+        font-size: 18px;
+    }
+    #recr-Statisticsbydate .form-group {
+        margin-top: 20px;
+    }
+    .form-wizard .form-wizard-steps li{
+        width: 20%;
+    }
+    .resume_details_fratres h2 , .resume_details_fratres h5{
+        text-align: center;
+    }
+    span.recru-monthdate{
+        display: none;
+    }
+    .AppForm .AppFormRight{
+        height: 450px;
+    }
+    .AppForm .AppFormRight:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-left:0;
+        background-color: #fff;
+       
+        /* background: #000428;  
+    background: -webkit-linear-gradient(to right, #ff8a00, #000428);  
+    background: linear-gradient(to right, #ff8a00, #000428); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        opacity: 1;
+    }
+    .AppFormLeft{
+        width: 100%;
+ 
+    }
+    .ReloadBtn{
+        left: 0 !important;
+        background-color: #fff !important;
+        top:0 !important;
+        
+    }
+    #CaptchaImageCode{
+        width: 250px !important;
+    }
+    .jobseeker-btm {
+       
+        bottom: 10% !important;
+    }
+    .AppForm .AppFormRight ul li {
+        padding: 5px 3px !important;
+    }
+}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+   
+  }
+
+
+
+
+
+  @media(max-width:349px){
+    .jobseeker-login-main .nav-tabs{
+        flex-direction: column;
+       
+    }
+    .jobseeker-login-main  .nav-tabs .nav-link{
+        border-radius: 0;
+    }
+    
+  }
+
+
+
+
+@media(min-width:320px) and (max-width:420px){
+    .item_skills_add{
+        margin: 5px 0 !important;
+        width: 100% !important;
+    }
+    .fratres_editbasicinfo p{
+        font-size: 14px;
+    }
+    .homepageslider-cvleft h5.valuecvname{
+        left: 29%;
+    }
+    .homepageslider-cvleft h2{
+        left: 41%;
+    }
+    .homepageslider-cvleft span img{
+        left: 34%;
+    }
+    a.jobdetail-apple {
+       padding: 10px !important;
+    }
+   a.jobdetail-playstore{
+       padding: 10px;
+    }
+    .jobseeker-btm{
+        right: 25%;
+    }
+    .drfat-submenu {
+        right: 100px;
+    }
+    .drfat-submenu2 {
+        right: 100px;
+    }
+    .recru-postjob-draft2{
+        text-align: center;
+    }
+    .recru-postjob-draft1{
+        text-align: center;
+    }
+  }

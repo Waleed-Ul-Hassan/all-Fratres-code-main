@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+
+
+<IfModule mime_module>
+AddHandler application/x-httpd-ea-php73 .php .php5 .phtml
+</IfModule>
+
+<IfModule mod_suphp.c>
+suPHP_ConfigPath /home/saqlain/all.fratres.net
+</IfModule>
+
+# 10 Hours
+<FilesMatch "\.(ico|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=1, public"
+</FilesMatch>
